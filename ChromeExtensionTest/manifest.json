@@ -13,10 +13,14 @@
         "default_icon": "icon16.png",
         "default_title": "Appbuelito",
         "default_popup": "index.html"
-    }
+    },
 
-
-
+    "content_scripts": [ /* Damos Aviso al ingresar a una pagina no deseada */
+        {
+          "matches": ["https://www.google.com/*"],
+          "js": ["content-script.js"]
+        }
+      ]
 
 
 
