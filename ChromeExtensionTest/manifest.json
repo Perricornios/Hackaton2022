@@ -3,7 +3,7 @@
     "name": "Perricornios - Appbuelito",
     "version": "1.0",
     "author": "Perricornios Co.",
-    "description": "Extension para gente mayor.",
+    "description": "Extension para la seguridad de la gente mayor.",
     "icons": {
         "16": "icon16.png",
         "48": "icon48.png",
@@ -15,14 +15,10 @@
         "default_popup": "index.html"
     },
 
-    "content_scripts": [ /* Damos Aviso al ingresar a una pagina no deseada */
+    "content_scripts": [ 
         {
-          "matches": ["https://www.google.com/*"],
+          "matches": ["https://www.bodog.com/*"],
           "js": ["content-script.js"]
         }
       ]
-
-
-
-
 }
