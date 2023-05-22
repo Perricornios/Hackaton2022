@@ -66,3 +66,25 @@ button{ /* boton de acceso */
     margin-bottom: 5px;
     
 }
+
+body {
+    width: 300px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    font-size: 18px;
+  }
+  
+  #security-info {
+    margin-top: 10px;
+  }
+  
+  .secure {
+    color: green;
+  }
+  
+  .insecure {
+    color: red;
+  }
